@@ -2048,6 +2048,7 @@ GameObject:
   - component: {fileID: 727714043}
   - component: {fileID: 727714042}
   - component: {fileID: 727714041}
+  - component: {fileID: 727714044}
   m_Layer: 0
   m_Name: XR Origin
   m_TagString: Untagged
@@ -2103,6 +2104,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!114 &727714044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 727714040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ba47e539f943954dafe4cd9922d0b7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isKeyAPressed: 0
+  isKeyBPressed: 0
+  isKey1Pressed: 0
+  isKey2Pressed: 0
+  isKey3Pressed: 0
+  isKey4Pressed: 0
 --- !u!1 &746019569
 GameObject:
   m_ObjectHideFlags: 0
@@ -4788,6 +4807,34 @@ PrefabInstance:
     - target: {fileID: 864807297054945866, guid: 7250c51eff208894bb7d01919022fc17, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6065400405847300301, guid: 7250c51eff208894bb7d01919022fc17, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9996572
+      objectReference: {fileID: 0}
+    - target: {fileID: 6065400405847300301, guid: 7250c51eff208894bb7d01919022fc17, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.0252113
+      objectReference: {fileID: 0}
+    - target: {fileID: 6065400405847300301, guid: 7250c51eff208894bb7d01919022fc17, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.000000025365072
+      objectReference: {fileID: 0}
+    - target: {fileID: 6065400405847300301, guid: 7250c51eff208894bb7d01919022fc17, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.007058141
+      objectReference: {fileID: 0}
+    - target: {fileID: 6065400405847300301, guid: 7250c51eff208894bb7d01919022fc17, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 2.889
+      objectReference: {fileID: 0}
+    - target: {fileID: 6065400405847300301, guid: 7250c51eff208894bb7d01919022fc17, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 6065400405847300301, guid: 7250c51eff208894bb7d01919022fc17, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0.81
       objectReference: {fileID: 0}
     - target: {fileID: 6065400407138756496, guid: 7250c51eff208894bb7d01919022fc17, type: 3}
       propertyPath: onReleased.m_PersistentCalls.m_Calls.Array.size
