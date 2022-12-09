@@ -95,7 +95,7 @@ public partial class @KeybardAndMouseControls : IInputActionCollection2, IDispos
                 {
                     ""name"": """",
                     ""id"": ""350b929a-0562-4722-97ba-9986a23d48c9"",
-                    ""path"": ""<Keyboard>/1"",
+                    ""path"": ""<Keyboard>/s"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -139,7 +139,7 @@ public partial class @KeybardAndMouseControls : IInputActionCollection2, IDispos
                 {
                     ""name"": """",
                     ""id"": ""d975ebfc-15ff-46db-a81c-93ee54fc3c16"",
-                    ""path"": ""<Keyboard>/a"",
+                    ""path"": ""<Keyboard>/w"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -150,7 +150,7 @@ public partial class @KeybardAndMouseControls : IInputActionCollection2, IDispos
                 {
                     ""name"": """",
                     ""id"": ""15c1fb1a-487d-41e1-abae-8eec946a46df"",
-                    ""path"": ""<Keyboard>/b"",
+                    ""path"": ""<Keyboard>/a"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -161,7 +161,7 @@ public partial class @KeybardAndMouseControls : IInputActionCollection2, IDispos
                 {
                     ""name"": """",
                     ""id"": ""bb7471ad-5042-4d86-8f6a-bfe049860e58"",
-                    ""path"": ""<Keyboard>/c"",
+                    ""path"": ""<Keyboard>/d"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",

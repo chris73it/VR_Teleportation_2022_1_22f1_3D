@@ -39,4 +39,9 @@ public class CraneMagnet : MonoBehaviour
     {
         transform.Translate(Vector3.up * -downDistance * Time.deltaTime);
     }
+
+    public void craneUp()
+    {
+        transform.Translate(Vector3.up * downDistance * Time.deltaTime);
+    }
 }
