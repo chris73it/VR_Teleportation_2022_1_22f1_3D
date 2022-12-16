@@ -58,13 +58,22 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "KAMC",
+                    "type": "Button",
+                    "id": "d9e9122a-6722-4e9e-9afc-9d6adabeaab9",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
                 {
                     "name": "",
                     "id": "350b929a-0562-4722-97ba-9986a23d48c9",
-                    "path": "<Keyboard>/1",
+                    "path": "<Keyboard>/s",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -108,7 +117,7 @@
                 {
                     "name": "",
                     "id": "d975ebfc-15ff-46db-a81c-93ee54fc3c16",
-                    "path": "<Keyboard>/a",
+                    "path": "<Keyboard>/w",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -119,11 +128,22 @@
                 {
                     "name": "",
                     "id": "15c1fb1a-487d-41e1-abae-8eec946a46df",
-                    "path": "<Keyboard>/b",
+                    "path": "<Keyboard>/a",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
                     "action": "KAMB",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c055f057-5c37-4029-9f98-ea92c6ef43a1",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "KAMC",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
