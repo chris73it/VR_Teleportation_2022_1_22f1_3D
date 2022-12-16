@@ -1,0 +1,154 @@
+{
+    "name": "KeybardAndMouseControls",
+    "maps": [
+        {
+            "name": "Gameplay",
+            "id": "ee7a8b1d-b003-41f9-8463-90133989aa7a",
+            "actions": [
+                {
+                    "name": "KAM1",
+                    "type": "Value",
+                    "id": "9826913b-f9b4-4e4c-9014-72df57719bd3",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "KAM2",
+                    "type": "Button",
+                    "id": "67a60864-e6dd-45c8-a1ab-d0847c7ca615",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "KAM3",
+                    "type": "Button",
+                    "id": "6e5d7e1e-0c2e-4f10-87d1-aeea6aa0b1b3",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "KAM4",
+                    "type": "Button",
+                    "id": "ec9865d7-58d5-47c4-8fcb-23a34c9d15d7",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "KAMA",
+                    "type": "Button",
+                    "id": "942b3d47-8749-4e8f-a1e6-7c8c7eb5a14d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "KAMB",
+                    "type": "Button",
+                    "id": "1eec84c6-f325-49c1-98eb-3f0e7d4da0ef",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "KAMC",
+                    "type": "Button",
+                    "id": "d9e9122a-6722-4e9e-9afc-9d6adabeaab9",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "350b929a-0562-4722-97ba-9986a23d48c9",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "KAM1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e363915e-1b28-49d0-97a7-6a378ffc4701",
+                    "path": "<Keyboard>/2",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "KAM2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "51de377a-0c7d-48d2-bb28-6e3fb3679276",
+                    "path": "<Keyboard>/3",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "KAM3",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "cff1fb72-3456-4fd4-8608-aa15c45f22fd",
+                    "path": "<Keyboard>/4",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "KAM4",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d975ebfc-15ff-46db-a81c-93ee54fc3c16",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "KAMA",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "15c1fb1a-487d-41e1-abae-8eec946a46df",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "KAMB",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c055f057-5c37-4029-9f98-ea92c6ef43a1",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "KAMC",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
