@@ -73,36 +73,8 @@ namespace HeroicArcade.CC.Core
         [HideInInspector] public bool isKeySPressed;
         private void OnKeySPressed(InputAction.CallbackContext context)
         {
-            Vector3 tempPos = craneControls.transform.position;
-
+            craneControls.craneDown();
            
-                if (craneControls.transform.position.y > lowerLimit)
-                {
-               
-                    isKeySPressed = context.ReadValueAsButton();
-                    craneControls.craneDown();
-                }
-                else
-                {
-                    tempPos.y = lowerLimit;
-                    craneControls.transform.position = tempPos;
-             
-
-                    if (attach.isBallAttached)
-                    {
-                        if (attach.isCubeCollider)
-                        {
-                            ball.parent = null;
-                          
-                        }
-                        else
-                        {
-                            ball.parent = magnet.transform;
-                        magnetOn.gameObject.SetActive(true);
-                        magnetOff.gameObject.SetActive(false);
-                        }
-                    }
-                }
             
         }
 

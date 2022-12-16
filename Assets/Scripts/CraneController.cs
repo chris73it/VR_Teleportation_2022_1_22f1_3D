@@ -58,6 +58,8 @@ public class CraneController : MonoBehaviour
                 if (attach.isCubeCollider)
                 {
                     ball.parent = null;
+                    magnetOn.gameObject.SetActive(false);
+                    magnetOff.gameObject.SetActive(true);
                 }
                 else
                 {
